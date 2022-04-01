@@ -54,11 +54,11 @@ for imp in ["TG_BOT_TOKEN", "APP_ID", "API_HASH", "OWNER_ID", "AUTH_CHANNEL"]:
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 APP_ID = int(os.environ.get("APP_ID", "12345"))
 API_HASH = os.environ.get("API_HASH")
-OWNER_ID = int(os.environ.get("OWNER_ID", "539295917"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "729618658"))
 
 # Get these values from my.telegram.org
 # to store the channel ID who are authorized to use the bot
-AUTH_CHANNEL = [int(x) for x in os.environ.get("AUTH_CHANNEL", "539295917").split()]
+AUTH_CHANNEL = [int(x) for x in os.environ.get("AUTH_CHANNEL", "749976852").split()]
 
 # the download location, where the HTTP Server runs
 DOWNLOAD_LOCATION = "./DOWNLOADS"
@@ -97,7 +97,7 @@ GLEECH_ZIP_COMMAND = os.environ.get("GLEECH_ZIP_COMMAND", "gleech_archive")
 YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl")
 GYTDL_COMMAND = os.environ.get("GYTDL_COMMAND", "gytdl")
 RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "")
-DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "Maxx-TD")
+DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "PRANAV-SHUKLA")
 INDEX_LINK = os.environ.get("INDEX_LINK", "")
 TELEGRAM_LEECH_COMMAND = os.environ.get("TELEGRAM_LEECH_COMMAND", "tleech")
 TELEGRAM_LEECH_UNZIP_COMMAND = os.environ.get("TELEGRAM_LEECH_UNZIP_COMMAND", "tleechunzip")
